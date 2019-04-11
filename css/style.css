@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo|Karla|Nanum+Gothic|Quicksand|Material+Icons");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e2e2e2;
+  color: #333;
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-flow: column;
+}
+
+.row {
+  flex-flow: row;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #140700;
+  color: #ddd;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.menu:hover .nav-item {
+  display: block;
+}
+
+section {
+  background-color: #ffff;
+  box-shadow: 0px 0px 2px 0px #999;
+  padding: 1em;
+  margin: 1em auto;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+table tr {
+  display: flex;
+  padding: 1em 0;
+  border-bottom: 1px solid #777;
+}
+
+article {
+  margin-top: 3.5em;
+}
+
+table tr th {
+  color: #7f5a70;
+  flex: 1 0;
+  text-align: right;
+  padding-right: 1em;
+}
+
+table small {
+  font-size: .75em;
+  color: #666;
+}
+
+table tr td {
+  flex: 2 0;
+  text-align: justify;
+}
+
+footer {
+  background-color: #140700;
+  color: #ddd;
+  flex: 1 0;
+  padding: 1em;
+  text-align: center;
+}
+
+footer > * {
+  padding: 1em;
+}
+
+.material-icons a {
+  text-decoration: none;
+  color: #fff;
+  padding: 2em;
+}
+
+.small {
+  display: none;
+  margin: 0;
+}
+
+@media all and (max-width: 500px) {
+  .med {
+    /* On small screens, we are no longer using row direction but column */
+    display: none;
+  }
+
+  .small {
+    display: block;
+  }
+
+  header {
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #fafafa;
+    width: 100%;
+    padding: 1em .5em;
+    box-shadow: 1px 1px 10px 1px #ddd;
+  }
+
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
