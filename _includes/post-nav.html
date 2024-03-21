@@ -1,0 +1,38 @@
+  <!-- post navigation -->
+  <style>
+    .post-nav-button {
+        border: 1px solid #333;
+        box-sizing: border-box;
+        padding:5px;
+        border-radius: 2px;
+        border-bottom: 5px solid #333;
+        max-width: 50%;
+    }
+
+    .post-nav-button.prev{
+        float:left;
+        border-right: 5px solid #333;
+        text-align: left;
+    }
+
+    .post-nav-button.next{
+        float: right;
+        border-left: 5px solid #333;
+        text-align: right;
+    }  
+    @media screen and (max-width: 600px) {
+        .post-nav-button {
+            max-width: 100%;
+            width: 100%;
+            margin:2px;
+            border:1px solid #333;
+        }
+}
+  </style>
+  {% if page.previous %}
+    <span class="post-nav-button prev">&lharu;<span class="desc">Previous:</span> <a href="{{page.previous.url}}">{{page.previous.title}}</a></span>
+  {% endif %}
+  {% if page.next %}
+    <span class="post-nav-button next"><span class="desc">Next:</span> <a href="{{page.next.url}}">{{page.next.title}}</a>&rharu;</span>
+  {% endif %}
+  <!-- end post navigation -->

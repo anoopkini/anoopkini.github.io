@@ -30,14 +30,7 @@ layout: base
     {{ content }}
   </div>
 
-  <!-- post navigation -->
-  {% if page.previous %}
-    <span style="float:left;border:1px solid #333; padding:5px;border-radius: 2px;margin-bottom: 5px;">&lharu; Previous: <a href="{{page.previous.url}}">{{page.previous.title}}</a></span>
-  {% endif %}
-  {% if page.next %}
-    <span style="float:right;border:1px solid #333; padding:5px;border-radius: 2px;">Next: <a href="{{page.next.url}}">{{page.next.title}}</a>&rharu;</span>
-  {% endif %}
-  <!-- end post navigation -->
+  {% include post-nav.html %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
