@@ -1,5 +1,5 @@
 ---
-title: 217. Contains Duplicates
+title: LC#217: Contains Duplicates
 layout: post
 category: DataStructures
 ---
@@ -31,7 +31,7 @@ Output: `true`
 ### *Brute Force*: 
 
 - Compare every element of the array with other elements. Return true if two elements are same else return false. 
-- Time: `O(n^2)`
+- Time: `O(n^2)` -> for every elements the whole array is iterated making it n*n
 - Space: `O(1)` -> no additional memory
 
 ``` python
