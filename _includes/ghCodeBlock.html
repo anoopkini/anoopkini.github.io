@@ -1,12 +1,43 @@
 <script type="text/javascript">
-    //fetch("{{include.url}}")
     fetch("https://raw.githubusercontent.com/anoopkini/{{include.repo}}/main/{{include.filepath}}")
         .then(response => response.text())
         .then(data => document.getElementById('code').textContent = data)
+    
+    function toggleCodeWrapper(){
+        document.getElementById("code-wrapper").style.display="block";
+        document.getElementById("code-toggle").style.display="none";
+    }
 </script>
-<div class="language-{{include.highlight}} highlighter-rouge">
-    <div class="highlight"><pre class="highlight">
-        <a id="ghLink" href="https://github.com/anoopkini/{{include.repo}}/blob/main/{{include.filepath}}" target="_blank" style="float:right;padding:5px;margin:2px;background: #fff;font-size: x-small;border-radius: 5px;">GitHub</a><a id="ghLink" href="{{include.leetcodeurl}}" target="_blank" style="float:right;padding:5px;margin:2px;background: #fff;font-size: x-small;border-radius: 5px;">Leetcode</a>
-        <code><div id="code"></div></code></pre>
+<style>
+    .ghLink, .lcLink {
+        float:right;
+        padding:5px;
+        background-color: #fff;
+        font-size: x-small;
+        border-radius: 5px;
+        margin:2px;
+    }
+    #code-toggle{
+        border:1px solid #333;
+        border-radius: 2px;
+        padding:5px;
+        border-bottom: 5px solid #333;
+        border-right: 5px solid #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #code-wrapper{
+        display: none;
+    }
+    #code-toggle:active{
+        border-bottom: 2px solid #333;
+        border-right: 2px solid #333;
+    }
+</style>
+<span id="code-toggle" onclick="toggleCodeWrapper()">Show code</span>
+<div id="code-wrapper" class="language-{{include.highlight}} highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight"><a class="ghLink" href="https://github.com/anoopkini/{{include.repo}}/blob/main/{{include.filepath}}" target="_blank">GitHub</a><a class="lcLink" href="{{include.lcurl}}" target="_blank">Leetcode</a><code><div id="code"></div></code></pre>
     </div>
 </div>
