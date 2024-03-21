@@ -1,5 +1,5 @@
 ---
-title: LC#217: Contains Duplicates
+title: "LC#217:Contains Duplicates"
 layout: post
 category: DataStructures
 ---
