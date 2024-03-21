@@ -1,10 +1,14 @@
 ---
-title: "LC#217:Contains Duplicates"
+title: "LC#217: Contains Duplicates : LeetCode solution : Python"
 layout: post
 category: DataStructures
+lcUrl: https://leetcode.com/problems/contains-duplicate/
+ghRepo: lc-problems
+ghPath: 217-contains-duplicate.py
 ---
-
 **Description:** *Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.*
+
+<a href="{{page.lcUrl}}" target="_blank">View problem on Leetcode</a>
 
 *Example 1:*
 
@@ -60,4 +64,4 @@ return False
 - Time: `O(n)` -> single loop of the array
 - Space: `O(n)` -> space occupied by hastset
 
-{% include ghCodeBlock.html highlight="python" repo="lc-problems" filepath="217-contains-duplicate.py" lcurl="https://leetcode.com/problems/contains-duplicate/" %}
+{% include ghCodeBlock.html highlight="python" repo=page.ghRepo filepath=page.ghPath lcurl=page.lcUrl %}
