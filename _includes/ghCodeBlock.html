@@ -5,9 +5,8 @@
         .then(data => document.getElementById('code').textContent = data)
 </script>
 <div class="language-{{include.highlight}} highlighter-rouge">
-    <div class="highlight">
-        <a id="ghLink" href="https://github.com/anoopkini/{{include.repo}}/blob/main/{{include.filepath}}" target="_blank" style="float:right;padding:5px;margin:5px;background: #fff;font-size: x-small;border-radius: 5px;">GitHub</a>
-        <a id="ghLink" href="{{include.leetcodeurl}}" target="_blank" style="float:right;padding:5px;margin:5px;background: #fff;font-size: x-small;border-radius: 5px;">Leetcode</a>
-        <pre class="highlight"><code><div id="code"></div></code></pre>
+    <div class="highlight"><pre class="highlight">
+        <a id="ghLink" href="https://github.com/anoopkini/{{include.repo}}/blob/main/{{include.filepath}}" target="_blank" style="float:right;padding:5px;margin:2px;background: #fff;font-size: x-small;border-radius: 5px;">GitHub</a><a id="ghLink" href="{{include.leetcodeurl}}" target="_blank" style="float:right;padding:5px;margin:2px;background: #fff;font-size: x-small;border-radius: 5px;">Leetcode</a>
+        <code><div id="code"></div></code></pre>
     </div>
 </div>
