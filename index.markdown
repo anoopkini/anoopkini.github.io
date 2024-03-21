@@ -4,4 +4,3 @@
 
 layout: home
 ---
-<center>COMING SOON</center>
