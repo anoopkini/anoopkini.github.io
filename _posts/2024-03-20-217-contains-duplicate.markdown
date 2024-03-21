@@ -31,8 +31,8 @@ Output: `true`
 ### *Brute Force*: 
 
 - Compare every element of the array with other elements. Return true if two elements are same else return false. 
-- Time: O(n<sup>2</sup>)
-- Space: O(1) -> no additional memory
+- Time: `O(n^2)`
+- Space: `O(1)` -> no additional memory
 
 ``` python
 for i in range(len(nums)-1):
@@ -44,8 +44,8 @@ return False
 
 ### *Revised Solution*:
 - Sort the array. Return true if two adjacent elements are same, else return false.
-- Time: O(n.log(n)) -> single loop of the array + time complexity of the sorting algo
-- Space: O(1) -> No additional memory
+- Time: `O(n.log(n))` -> single loop of the array + time complexity of the sorting algo
+- Space: `O(1)` -> No additional memory
 
 ``` python
 for i in range(len(sorted_nums)-1):
@@ -57,7 +57,7 @@ return False
 
 ### *Optimal Solution*:
 - As you are looping through the array add it to a hash set.
-- Time: O(n) -> single loop of the array
-- Space: O(n) -> space occupied by hastset
+- Time: `O(n)` -> single loop of the array
+- Space: `O(n)` -> space occupied by hastset
 
 {% include ghCodeBlock.html highlight="python" repo="lc-problems" filepath="217-contains-duplicate.py" lcurl="https://leetcode.com/problems/contains-duplicate/" %}
