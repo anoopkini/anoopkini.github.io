@@ -54,6 +54,6 @@ After 12 years, I am still a software developer.
 
 ## Looking foward
 
-Nathan doesn't I exist, but his journey resonates with me. I am so delighted to see his growth and evolution over the years, as it inspires me to strive for my own personal and professional growth. 
+Nathan doesn't know I exist, but his journey resonates with me. I am so delighted to see his growth and evolution over the years, as it inspires me to strive for my own personal and professional growth. 
 
 Twelve years from now, I am determined to be in a different place—a happy place where I feel like I am in control of my career and where everyday work brings me joy. This commitment to my personal and professional growth is what drives me forward.
