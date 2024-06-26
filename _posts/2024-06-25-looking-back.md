@@ -60,6 +60,6 @@ Nathan doesn't know I exist, but his journey resonates with me. I am so delighte
 
 Twelve years from now, I am determined to be in a different place—a happy place where I feel like I am in control of my career and where everyday work brings me joy. 
 
-As of this writing, June 26th, 2024, I am 1381 days from my 40th birthday. This would be a major milestone, and I want to make sure that I am making good progress on reaching my goals before this time. 
+As of this writing, June 25th, 2024, I am 1381 days from my 40th birthday. This would be a major milestone, and I want to make sure that I am making good progress on reaching my goals before this time. 
 
 This commitment to my personal and professional growth is what drives me forward.
