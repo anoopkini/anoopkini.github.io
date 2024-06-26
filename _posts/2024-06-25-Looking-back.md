@@ -27,7 +27,7 @@ I saw who it was from, and I took a deep breath.
 
 My thoughts wandered back to the 2011 - 2012 period - It had been a couple of years since I started working. I had started and failed at two startup ideas. Blogging and social media were still young and fresh. I used to blog occasionally, but nothing worth mentioning as I had nothing to share. 
 
-Around that time, I stumbled across this authors long ["year-in-review" blog post](https://nathanbarry.com/2011-review/). It was mid 2012, and the author was Nathan Barry. It was a well-written post. I found it fascinating and started consuming his other posts. I stumbled across [this post](https://nathanbarry.com/89697-reasons-to-teach/) where Nathan mentions [Chris Coyier](https://chriscoyier.net/), founder of [css-tricks.com](https://css-tricks.com/), co-founder of [codepen.io](https://codepen.io/), and a well-known personality in the Web development space. 
+Around that time, I stumbled across this authors long ["year-in-review" blog post](https://nathanbarry.com/2011-review/). It was mid 2012, and the author was [Nathan Barry](https://nathanbarry.com). It was a well-written post. I found it fascinating and started consuming his other posts. I stumbled across [this post](https://nathanbarry.com/89697-reasons-to-teach/) where Nathan mentions [Chris Coyier](https://chriscoyier.net/), founder of [css-tricks.com](https://css-tricks.com/), co-founder of [codepen.io](https://codepen.io/), and a well-known personality in the Web development space. 
 
 Quoting Nathan:
 
