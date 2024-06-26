@@ -52,8 +52,14 @@ Nathan Barry became an established author, speaker, and CEO of a successful soft
 
 After 12 years, I am still a software developer. 
 
+Don't get me wrong. I have grown leaps and bounds personally and professionally. However, the development is not reflected in reaching my personal/professional goals. As mentioned, I started and failed two startup ventures, where I learned a lot. We applied most of the learnings to my wife's headshots and branding photography business. But I am far from where I envisioned being in the same time frame. 
+
 ## Looking foward
 
 Nathan doesn't know I exist, but his journey resonates with me. I am so delighted to see his growth and evolution over the years, as it inspires me to strive for my own personal and professional growth. 
 
-Twelve years from now, I am determined to be in a different place—a happy place where I feel like I am in control of my career and where everyday work brings me joy. This commitment to my personal and professional growth is what drives me forward.
+Twelve years from now, I am determined to be in a different place—a happy place where I feel like I am in control of my career and where everyday work brings me joy. 
+
+As of this writing, June 26th, 2024, I am 1381 days from my 40th birthday. This would be a major milestone, and I want to make sure that I am making good progress on reaching my goals before this time. 
+
+This commitment to my personal and professional growth is what drives me forward.
