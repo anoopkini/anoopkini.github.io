@@ -1,7 +1,7 @@
 ---
 title: "LC#217: Contains Duplicates : LeetCode solution : Python"
 layout: post
-category: DataStructures
+categories: interview-prep data-structures
 lcUrl: https://leetcode.com/problems/contains-duplicate/
 ghRepo: lc-problems
 ghPath: 217-contains-duplicate.py

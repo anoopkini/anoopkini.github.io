@@ -34,14 +34,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
-#header_pages:
+header_pages:
   # - next-100.md
   # - portfolio.md
 
 permalink: none
 
 jekyll-archives:
- enabled: all
+ enabled: none
  layout: archive
  permalinks:
    year: '/:year/'
