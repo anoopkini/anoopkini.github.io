@@ -32,24 +32,23 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-#  - jekyll-archives
+  - jekyll-archives
 
-#header_pages:
-#  - about.md
-#  - portfolio.md
+header_pages:
+  - next-100.md
+  # - portfolio.md
 
 permalink: none
 
-#jekyll-archives:
-#  enabled:
-#    - categories
-#  layout: archive
-#  permalinks:
-#    year: '/:year/'
-#    month: '/:year/:month/'
-#    day: '/:year/:month/:day/'
-#    tag: '/tag/:name/'
-#    category: '/category/:name/'
+jekyll-archives:
+ enabled: all
+ layout: archive
+ permalinks:
+   year: '/:year/'
+   month: '/:year/:month/'
+   day: '/:year/:month/:day/'
+   tag: '/tag/:name/'
+   category: '/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
