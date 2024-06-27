@@ -34,8 +34,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
-header_pages:
-  - next-100.md
+#header_pages:
+  # - next-100.md
   # - portfolio.md
 
 permalink: none
@@ -49,6 +49,8 @@ jekyll-archives:
    day: '/:year/:month/:day/'
    tag: '/tag/:name/'
    category: '/category/:name/'
+
+google_analytics: G-EWBW4KKQJW
 
 # Exclude from processing.
 # The following items will not be processed, by default.
