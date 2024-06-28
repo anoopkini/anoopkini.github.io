@@ -23,7 +23,15 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+      {%- if page.tags -%}
+      • Tags:{% for tag in page.tags %}
+        <span itemprop="tag" itemscope itemtype="http://schema.org/Person">
+          <span class="p-tag h-card" itemprop="name" style="border:1px solid #333; padding: 0 10px; border-radius: 5px;">{{ tag }}</span></span>
+          {%- if forloop.last == false %}&nbsp;{% endif -%}
+        {% endfor %}
+        {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

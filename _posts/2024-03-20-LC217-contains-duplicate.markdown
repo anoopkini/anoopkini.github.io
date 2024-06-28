@@ -3,12 +3,16 @@ title: "LC#217: Contains Duplicates : LeetCode solution : Python"
 layout: post
 categories: interview-prep data-structures
 lcUrl: https://leetcode.com/problems/contains-duplicate/
+ncUrl: https://www.youtube.com/watch?v=3OamzN90kPg
 ghRepo: lc-problems
 ghPath: 217-contains-duplicate.py
+problem_title: "Contains Duplicate"
+modified_date: 2024-06-27
+tags: python
 ---
 **Description:** *Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.*
 
-<a href="{{page.lcUrl}}" target="_blank">View problem on Leetcode</a>
+<!--more-->
 
 *Example 1:*
 
@@ -65,3 +69,5 @@ return False
 - Space: `O(n)` -> space occupied by hastset
 
 {% include ghCodeBlock.html highlight="python" repo=page.ghRepo filepath=page.ghPath lcurl=page.lcUrl %}
+
+{% include lc-nc-block.html lcUrl=page.lcUrl ncUrl=page.ncUrl problem_title=page.problem_title %}

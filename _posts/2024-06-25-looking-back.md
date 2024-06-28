@@ -3,6 +3,7 @@ title: "Looking back"
 layout: post
 category: life
 permalink: looking-back
+modified_date: 2024-06-26
 ---
 
 It was a regular PNW summer morning. I was sitting with my head down, eyes closed, rubbing my hands together. The summer sun was slowly heating the air outside, but my room was still cold from the night. As I felt the palm warm up, I lifted my head and placed my palm on my face, gently rubbing my cheeks and eyes. Slowly taking in the heat. My brain was already running, thinking about what I had in store for the day. 
