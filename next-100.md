@@ -22,7 +22,6 @@ Similarly, I plan to fast-track my progress toward my goals by committing to the
 ## Commitments for the next 100 days
 - I will code every day. 
 - I will write 1000 words every day.
-- I will work out every day. 
 
 ## Keep track
 Now, let's see how this goes. Good luck to me. 
@@ -31,7 +30,7 @@ Now, let's see how this goes. Good luck to me.
 
 |W||S|M|T|W|T|F|S|
 | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: 
-| *1* |*JUN*|-|-|-|-|1|2|3|
+| *1* |*JUN*|-|-|-|-|[✔️✔️]({% post_url 2024-06-27-day-1-of-100 %})|2|3|
 | *2* ||4|-|-|-|-|-|-|
 |  |*JUL*|-|5|6|7|8|9|10|
 |*3*||11|12|13|14|15|16|17|
