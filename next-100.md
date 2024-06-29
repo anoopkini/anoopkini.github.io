@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: next-100
 title: Next-100
 ---
 *1380 days left*
@@ -32,7 +31,7 @@ Now, let's see how this goes. Good luck to me.
 
 |W||S|M|T|W|T|F|S|
 | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: 
-| *1* |*JUN*|-|-|-|-|[✔️✔️]({% post_url next-100/2024-06-27-day-1 %})|2|3|
+| *1* |*JUN*|-|-|-|-|1 [✔️✔️]({% post_url next-100/2024-06-27-day-1 %})|2 [✔️✔️]({% post_url next-100/2024-06-28-day-2 %})|3|
 | *2* ||4|-|-|-|-|-|-|
 |  |*Jul*|-|5|6|7|8|9|10|
 |*3*||11|12|13|14|15|16|17|
@@ -50,3 +49,6 @@ Now, let's see how this goes. Good luck to me.
 |*14*||88|89|90|91|92|93|94|
 |*15*||95|96|-|-|-|-|-|
 ||*Oct*|-|-|97|98|99|100|-|
+
+
+{% include related-tag-posts.html %}
