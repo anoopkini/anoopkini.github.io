@@ -8,7 +8,7 @@ ghRepo: lc-problems
 ghPath: 217-contains-duplicate.py
 problem_title: "Contains Duplicate"
 modified_date: 2024-06-27
-tags: python
+tags: python leetcode-solutions
 ---
 **Description:** *Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.*
 
